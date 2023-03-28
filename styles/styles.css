@@ -62,17 +62,22 @@ width: 1200px;
 }
 .navigation-list {
     list-style: none;
-    width: 450px;
-    margin: 0;
+    width: 339px;
+    margin-left: 30px;
     padding: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .navigation-user {
     list-style: none;
     margin-left: auto;
-    max-width: 300px;
-    margin-right: 70px;
+    width: 88px;
+    /* margin-right: 70px; */
+    padding: 0;
+    display: block;
 }
+
 
 .navigation-link {
     font-family: "PT Sans", sans-serif;
@@ -86,6 +91,12 @@ width: 1200px;
     text-align: center;
 }
 
+
+
+.navigation-user {
+    width: 268px;
+}
+
 .navigation-user-link {
     width: 20px;
     height: 20px;
@@ -94,6 +105,26 @@ width: 1200px;
     text-decoration: none;
     text-transform: capitalize;
     text-align: center;
+}
+
+.navigation-user-item {
+    width: 44px;
+    text-align: center;
+}
+
+.navigation-link-wish {
+    width: 120px;
+    color: #FFFFFF;
+    background-color: #756157;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 8px 34px;
+    border-radius: 4px;
+    margin: 14px 70px 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
 }
 
 .main-container {
@@ -193,7 +224,6 @@ height: 385px;
 
 .advantages-item-blue-town {
     display: flex;
-    /* flex-direction: column-reverse; */
 }
 
 
@@ -206,12 +236,6 @@ height: 385px;
     background-size: 100% auto;
     background-repeat: no-repeat;
     display: flex;
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* padding: 103px 85px; */
-    /* gap: 10px; */
-    /* width: 400px; */
     height: 385px;
 }
 
