@@ -72,10 +72,9 @@ width: 1200px;
 .navigation-user {
     list-style: none;
     margin-left: auto;
-    width: 88px;
-    /* margin-right: 70px; */
     padding: 0;
     display: block;
+    width: 268px;
 }
 
 
@@ -91,12 +90,6 @@ width: 1200px;
     text-align: center;
 }
 
-
-
-.navigation-user {
-    width: 268px;
-}
-
 .navigation-user-link {
     width: 20px;
     height: 20px;
@@ -104,7 +97,6 @@ width: 1200px;
     background-color: #FFFFFF;
     text-decoration: none;
     text-transform: capitalize;
-    text-align: center;
 }
 
 .navigation-user-item {
@@ -124,7 +116,6 @@ width: 1200px;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    display: block;
 }
 
 .main-container {
@@ -378,6 +369,8 @@ height: 385px;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
+    display: flex;
+    justify-content: center;
 }
 
 .field {
